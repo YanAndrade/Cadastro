@@ -1,0 +1,148 @@
+/*
+* CSS feito por Giovana Aparecida
+* Para o 3° projeto de POO
+*/
+
+/*=========================
+        TIPOGRAFIA
+===========================*/
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+}
+h1, h2, h3, h4, h5, h6{
+    text-transform: uppercase;
+    font-weight: 70;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    text-decoration: none;
+    transition: 0.3s;
+    color:#70a1ff;
+}
+
+/*=========================
+           JSPF
+===========================*/
+.nav{
+    background-color: #2f3542;
+    text-transform: uppercase;
+    left: 0px;
+    width: 100%;
+    position: relative;
+    text-align: center
+}
+
+.menu ul{
+    padding: 20px 40px;
+    margin: 0px;
+    list-style:none;
+    text-align: center;
+    word-spacing: 10px;
+    text-align: center
+}
+.menu a{
+    outline: none;
+    text-decoration: none;
+    color: #fff;
+    left: 50%;
+    text-align: center
+    
+}
+.menu a:hover{
+    outline: none;
+    text-decoration: none;
+    transition: 0.3s;
+    color:#70a1ff;
+    text-align: center
+}
+
+.menu ul li{
+    display: inline-block;
+    text-align: center
+}
+.rodape{
+    text-align: center;
+}
+.rodape a{
+    font-size: 30px;
+}
+/*=========================
+           FIM-JSPF
+===========================*/
+
+
+/*=========================
+            HOME
+===========================*/
+.team{
+    width: 100%;
+    text-align: center;
+    
+}
+.pe {
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #dfe4ea;
+    
+}
+.pe p{
+    align-items: center;
+    padding: auto 20px;
+    margin: 30px 60px;
+    
+}
+/*=========================
+         FIM-HOME
+===========================*/
+
+/*=========================
+         TABELA
+===========================*/
+
+table{
+    border: 1px solid #000000;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+th{
+    border: 1px solid #000000;
+    background-color: #dfe4ea;
+    height: 50px;
+}
+
+td{
+    border: 1px solid #000000;
+    height: 25px;
+}
+
+/*=========================
+         FIM-TABELA
+===========================*/
+
+/*=========================
+         BOTOES
+===========================*/
+    
+input{
+    height: 20px;
+    width: 15%;
+    margin: 5px;
+}
+
+.botão{
+    height: 25px;
+    width: 8%;
+    margin: 5px;
+}
+
+/*=========================
+         FIM-BOTÕES
+===========================*/
