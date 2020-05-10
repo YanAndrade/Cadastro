@@ -1,6 +1,6 @@
 
-<%@page import="br.com.fatecpg.musica.Db"%>
-<%@page import="br.com.fatecpg.musica.Dados"%>
+<%@page import="br.com.fatecpg.nome.Db"%>
+<%@page import="br.com.fatecpg.nome.Dados"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <%
@@ -42,7 +42,7 @@
             <input type="text" name="nome"
                    value="<%=dados.getNome()%>"/><br/>
             Email:<br/>
-            <input type="text" name="banda"
+            <input type="text" name="email"
                     value="<%=dados.getEmail()%>"/><br/>
            Telefone:<br/>
             <input type="text" name="telefone"

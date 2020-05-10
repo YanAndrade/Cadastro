@@ -26,7 +26,9 @@
         %>
         <main>
             <div class="team">
+                </br>
                 <h2>Total de cadastrados</h2>
+                </br>
                 <div class="pe">
                     <h3>Nomes</h3>
                     <p>Quantidade de nomes: <%=cont%></p>
