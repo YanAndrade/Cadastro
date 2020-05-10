@@ -1,7 +1,7 @@
 <%-- 
     Document   : home
-    Created on : 15/09/2019, 12:13:43
-    Author     : Cliente
+    Created on : 09/05/2019, 12:13:43
+    Author     : Yan
 --%>
 
 <%@page import="br.com.fatecpg.nome.Dados"%>
@@ -33,10 +33,12 @@
                     <h3>Nomes</h3>
                     <p>Quantidade de nomes: <%=cont%></p>
                 </div>
+                </br>
                 <div class="pe">
                     <h3>Emails</h3>
                     <p>Quantidade de emails: <%=cont%></p>
                 </div>
+                </br>
                 <div class="pe">
                     <h3>telefone</h3>
                     <p>Quantidade de telefone: <%=cont%></p>

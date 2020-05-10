@@ -1,7 +1,7 @@
 <%-- 
     Document   : index
-    Created on : 09/09/2019, 20:24:28
-    Author     : Denos
+    Created on : 09/05/2019, 12:13:43
+    Author     : Yan
 --%>
 
 <%@page import="br.com.fatecpg.nome.Db"%>
@@ -37,6 +37,7 @@
                     <td><%= c.getTelefone()%></td>
                     <td>
                         <a href="alterar.jsp?index=<%=Db.getDados().indexOf(c)%>">Alterar</a>
+                        <a> / </a>
                         <a href="excluir.jsp?index=<%=Db.getDados().indexOf(c)%>">Excluir</a>
                     </td>
                 </tr>

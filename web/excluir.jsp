@@ -1,7 +1,7 @@
 <%-- 
     Document   : excluir
-    Created on : Sep 15, 2019, 10:10:53 AM
-    Author     : guilherme
+    Created on : 09/05/2019, 12:13:43
+    Author     : Yan
 --%>
 
 <%@page import="br.com.fatecpg.nome.Db"%>

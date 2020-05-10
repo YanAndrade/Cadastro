@@ -4,6 +4,7 @@
 <footer>
     <div class="rodape">
         <hr>
-        <p>Yan Matheus Iamamura Andrade - Projeto Cadastramento - Fatec Praia Grande</p>
+        <p>Yan Matheus Iamamura Andrade - Projeto Cadastramento <p/>
+        <p>    Fatec Praia Grande</p>
     </div>
 </footer>
