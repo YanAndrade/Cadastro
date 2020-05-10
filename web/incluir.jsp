@@ -4,8 +4,8 @@
     Author     : Denos
 --%>
 
-<%@page import="br.com.fatecpg.musica.Db"%>
-<%@page import="br.com.fatecpg.musica.Dados"%>
+<%@page import="br.com.fatecpg.nome.Db"%>
+<%@page import="br.com.fatecpg.nome.Dados"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 
@@ -13,10 +13,10 @@
     if(request.getParameter("cancel") != null){
         response.sendRedirect("index.jsp");
     }if(request.getParameter("add") != null){
-        String musica = request.getParameter("musica");
-        String banda = request.getParameter("banda");
-        String disco = request.getParameter("disco");
-        Dados c = new Dados(musica, banda, disco);
+        String nome = request.getParameter("nome");
+        String email = request.getParameter("email");
+        String telefone = request.getParameter("telefone");
+        Dados c = new Dados(nome, email, telefone);
         Db.getDados().add(c);
         response.sendRedirect("index.jsp");
     }
@@ -34,12 +34,12 @@
         <center>
         <h2>Adicionar</h2>
         <form>
-            Musica:<br/>
-            <input type="text" name="musica"/><br>
-            Banda:<br/>
-            <input type="text" name="banda"/><br>
-            Disco:<br/>
-            <input type="text" name="disco"/><br></br>
+            Nome:<br/>
+            <input type="text" name="nome"/><br>
+            Email:<br/>
+            <input type="text" name="email"/><br>
+            Telefone:<br/>
+            <input type="text" name="telefone"/><br></br>
             
             <input type="submit" class="botão" name="add" value="Adicionar"/>
             <input type="submit" class="botão" name="cancel" value="Cancelar"/>

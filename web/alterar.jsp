@@ -14,10 +14,10 @@
         response.sendRedirect("index.jsp");
     }if(request.getParameter("set") != null){
         int index = Integer.parseInt(request.getParameter("index"));
-        String musica = request.getParameter("musica");
-        String banda = request.getParameter("banda");
-        String disco = request.getParameter("disco");
-        Dados c = new Dados(musica, banda, disco);
+        String nome = request.getParameter("nome");
+        String email = request.getParameter("email");
+        String telefone = request.getParameter("telefone");
+        Dados c = new Dados(nome, email, telefone);
         Db.getDados().set(index, c);
         response.sendRedirect("index.jsp");
     }
@@ -38,15 +38,15 @@
             <%= request.getParameter("index")%></br>
             <input type="hidden" name="index"
                    value="<%=request.getParameter("index")%>"/> <br/>
-            Musica:<br/>
-            <input type="text" name="musica"
-                   value="<%=dados.getMusica()%>"/><br/>
-            Banda:<br/>
+            Nome:<br/>
+            <input type="text" name="nome"
+                   value="<%=dados.getNome()%>"/><br/>
+            Email:<br/>
             <input type="text" name="banda"
-                    value="<%=dados.getBanda()%>"/><br/>
-            Disco:<br/>
-            <input type="text" name="disco"
-                   value="<%=dados.getDisco()%>"/><br/><br/>
+                    value="<%=dados.getEmail()%>"/><br/>
+           Telefone:<br/>
+            <input type="text" name="telefone"
+                   value="<%=dados.getTelefone()%>"/><br/><br/>
             
             <input type="submit" class="botão" name="set" value="Alterar"/>
             <input type="submit" class="botão" name="cancel" value="Cancelar"/>

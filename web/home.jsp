@@ -4,8 +4,8 @@
     Author     : Cliente
 --%>
 
-<%@page import="br.com.fatecpg.musica.Dados"%>
-<%@page import="br.com.fatecpg.musica.Db"%>
+<%@page import="br.com.fatecpg.nome.Dados"%>
+<%@page import="br.com.fatecpg.nome.Db"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -28,16 +28,16 @@
             <div class="team">
                 <h2>Total de cadastrados</h2>
                 <div class="pe">
-                    <h3>Musicos(Bandas)</h3>
-                    <p>N° de bandas: <%=cont%></p>
+                    <h3>Nomes</h3>
+                    <p>Quantidade de nomes: <%=cont%></p>
                 </div>
                 <div class="pe">
-                    <h3>Albuns</h3>
-                    <p>N° de albuns: <%=cont%></p>
+                    <h3>Emails</h3>
+                    <p>Quantidade de emails: <%=cont%></p>
                 </div>
                 <div class="pe">
-                    <h3>Musicas</h3>
-                    <p>N° de musicas: <%=cont%></p>
+                    <h3>telefone</h3>
+                    <p>Quantidade de telefone: <%=cont%></p>
                 </div>
             </div>
         </main>

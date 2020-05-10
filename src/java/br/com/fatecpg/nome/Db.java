@@ -1,4 +1,4 @@
-package br.com.fatecpg.musica;
+package br.com.fatecpg.nome;
 
 import java.util.ArrayList;
 
@@ -9,8 +9,8 @@ public class Db {
     public static ArrayList<Dados> getDados(){
             if(dados == null){
                 dados = new ArrayList<>();
-                dados.add(new Dados("Emperor's New Clothes", "Panic At The Disco", "Death Of a Bachelor"));
-                dados.add(new Dados("Bohemian Rhapsody", "Queen", "A Night At The Opera"));
+                dados.add(new Dados("Dona Maria", "donamaria@hotmail.com", "(11) 91234-5678"));
+                dados.add(new Dados("Dona Josefina", "donajosefina@gmail.com", "(11) 99876-5432"));
             }
             return dados;
     }

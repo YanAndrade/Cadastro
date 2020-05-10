@@ -4,8 +4,8 @@
     Author     : guilherme
 --%>
 
-<%@page import="br.com.fatecpg.musica.Db"%>
-<%@page import="br.com.fatecpg.musica.Dados"%>
+<%@page import="br.com.fatecpg.nome.Db"%>
+<%@page import="br.com.fatecpg.nome.Dados"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <%
